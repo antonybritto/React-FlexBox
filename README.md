@@ -33,6 +33,6 @@ Supported Attributes for Column
 Supported Attributes for Cell
 -----------------------------
    'valign' (use only within Row) - (top, bottom, center, stretch, baseline) Within 'Row' to the control the vertical align for individual cells, defaults to 'stretch'<br/>
-   'align' - (use only within Column) - (top, bottom, center, stretch, baseline) Within 'Column' to the control the horizontal align for individual cells, defaults to 'stretch'<br/>  
+   'align' - (use only within Column) - (top, bottom, center, stretch, baseline) Within 'Column' to the control the horizontal align for individual cells, defaults to 'stretch'
    'order' - (positive integer) Ordering of cells<br/>
    'size' - ('1of4', '1of2', '1of3', '3of4', 'auto', 'full') Sizing individual cells, defaults to equal sizing (flex:1 1 auto)<br/>
