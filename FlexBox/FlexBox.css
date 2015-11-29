@@ -1,0 +1,109 @@
+/***** Container properties ****/
+.Row, .Row-reverse, .Column, .Column-reverse {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.Column {
+    flex-direction: column;
+}
+
+.Column-reverse {
+    flex-direction: column-reverse;
+}
+
+.Row-reverse {
+    flex-direction: row-reverse;
+}
+
+.Grid-valign-top, .Grid-valign-left {
+    align-items: flex-start;
+}
+
+.Grid-valign-bottom, .Grid-valign-right {
+    align-items: flex-end;
+}
+
+.Grid-valign-center {
+    align-items: center;
+}
+
+.Grid-valign-baseline {
+    align-items: baseline;
+}
+
+
+.Grid-align-left, .Grid-align-top {
+    justify-content: flex-start;
+}
+
+.Grid-align-right, .Grid-align-bottom {
+    justify-content: flex-end;
+}
+
+.Grid-align-center {
+    justify-content: center;
+}
+
+.Grid-align-between {
+    justify-content: space-between;
+}
+
+.Grid-align-around {
+    justify-content: space-around;
+}
+
+
+/***** Item properties ****/
+
+.Cell {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+.Cell-valign-top, .Cell-valign-left {
+  align-self: flex-start;
+}
+
+.Cell-valign-bottom, .Cell-valign-right  {
+  align-self: flex-end;
+}
+
+.Cell-valign-center {
+  align-self: center;
+}
+
+.Cell-valign-stretch {
+  align-self: stretch;
+}
+
+.Cell-valign-baseline {
+  align-self: baseline;
+}
+
+.Cell-1of2 {
+  flex: 0 0 50%;
+}
+
+.Cell-1of3 {
+  flex: 0 0 33.3333%;
+}
+
+.Cell-3of4 {
+  flex: 0 0 75%;
+}
+
+.Cell-1of4 {
+  flex: 0 0 25%;
+}
+
+.Cell-auto {
+  flex: none;
+}
+
+.Cell-full {
+  flex: 0 0 100%;
+}
